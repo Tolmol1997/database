@@ -1,0 +1,16 @@
+//This script file is created to alter table using sql commands
+//For the script file to execute in the sql server you need to add this line at first @C:\Users\WORKSHOP-2\Desktop\Database\addconstraint.txt
+
+ALTER TABLE students
+ADD CONSTRAINT pk_student_id
+PRIMARY KEY (student_id);
+
+ALTER TABLE Teachers MODIFY(
+gender CHAR DEFAULT 'M'
+);
+
+
+ALTER TABLE students MODIFY(
+email VARCHAR2(25) NOT NULL
+);
+

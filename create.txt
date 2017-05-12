@@ -1,0 +1,18 @@
+//This script file is created to create table using sql commands
+//For the script file to execute in the sql server you need to add this line at first @C:\Users\WORKSHOP-2\Desktop\Database\create.txt
+
+CREATE TABLE students(
+student_id				NUMBER(10),
+firstname				VARCHAR2(10),
+lastname				VARCHAR2(15),
+email					VARCHAR2(25),
+contact_number			VARCHAR2(15)	);
+					
+							
+CREATE TABLE Teachers(
+teacher_id				NUMBER(5),
+firstname				VARCHAR2(10),
+lastname				VARCHAR2(15),
+gender					CHAR			);
+
+

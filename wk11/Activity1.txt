@@ -1,0 +1,22 @@
+/* 
+Name: Maneesh Pudasaini
+ID: 15444350
+Module Name: Database
+Module code: CSY1026
+Activity no.: Activity11
+Date: 28/4/2017
+*/
+
+-- RunCommand EG @D:\Maneesh\wk11\Activity1.txt
+CREATE TABLE costumers(
+customer_id	NUMBER(5),
+firstname VARCHAR2(15),
+surname VARCHAR2(20),
+dob	DATE,
+gender CHAR,
+contact_number VARCHAR2(15));
+
+--to create a new table named costumers
+
+--to check table is created or not
+DESC customers

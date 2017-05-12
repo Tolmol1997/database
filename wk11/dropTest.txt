@@ -1,0 +1,23 @@
+/* 
+Name: Maneesh Pudasaini
+ID: 15444350
+Module Name: Database
+Module code: CSY1026
+Activity no.: Activity11
+Date: 28/4/2017
+
+good practice is important.  
+Script filess should structured, tidy and professional to aim usability
+ 
+*/
+
+-- Note the order of the tables
+-- RunCommand EG @D:\Maneesh\wk11\createTest.txt
+
+-- DROP COMMANDS
+
+DROP TABLE loans;
+DROP TABLE books;
+DROP TABLE students;
+
+PURGE RECYCLEBIN;
