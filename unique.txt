@@ -1,0 +1,8 @@
+//this script is to add unique key constraint
+
+//use @C:\Users\WORKSHOP-2\Desktop\Database\database\unique.txt
+
+ALTER TABLE students 
+ADD CONSTRAINT u_students
+UNIQUE (firstname);
+
