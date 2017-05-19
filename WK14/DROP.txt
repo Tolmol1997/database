@@ -1,0 +1,37 @@
+//run command using @C:\Users\WORKSHOP-2\Desktop\database\WK14\DROP.txt
+
+/* 
+this command is used to drop table 
+ */
+
+/* 
+DROP TABLE courses PURGE;
+DROP TABLE subject_areas PURGE; 
+*/
+
+
+/* 
+this command is used to drop constraints from a table
+ */
+
+
+
+ALTER TABLE courses
+DROP CONSTRAINTS pk_courses;
+
+ALTER TABLE subject_areas
+DROP CONSTRAINTS pk_subject_areas; 
+
+
+/* 
+this command is used to drop fk from a table 
+ */
+
+/* 
+ALTER TABLE courses
+DROP CONSTRAINTS fk_c_subject_areas;
+ */
+
+
+
+

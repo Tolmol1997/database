@@ -1,0 +1,71 @@
+ -- run command using @C:\Users\WORKSHOP-2\Desktop\database\WK14\createtable.txt 
+
+ 
+ 
+CREATE TABLE students(
+student_id				NUMBER(10),
+firstname				VARCHAR2(10),
+lastname				VARCHAR2(15),
+email					VARCHAR2(25),
+contact_number			VARCHAR2(15) );
+
+
+/* CREATE TABLE courses	(
+course_id			NUMBER(10),
+course_title		VARCHAR2(10),
+subject_id			VARCHAR2(10),
+duration			VARCHAR2(5),
+cost				NUMBER(5,2));
+
+
+CREATE TABLE subject_areas	(
+subject_name		VARCHAR2(10),
+description			VARCHAR2(10),
+subject_id			VARCHAR2(10)); */
+
+/* 
+create table course_runs
+ */
+/* CREATE TABLE course_runs (
+running_id		NUMBER(10),
+site_id			NUMBER(10),
+course_id		NUMBER(10),
+trainer_id		NUMBER(10),
+start_date		DATE ); */
+
+
+/* 
+Create a table name sites 
+*/ 
+
+--create sites table
+/* CREATE TABLE sites(
+site_id		NUMBER(10),
+site_name	VARCHAR2(15),
+location	VARCHAR2(10) );
+ 
+
+
+-- create trainers table
+CREATE TABLE trainers(
+trainer_id		NUMBER(10),
+t_fname			VARCHAR2(10),
+t_sname			VARCHAR2(10),
+mentor_id		NUMBER(10),
+contact_number	VARCHAR2(10),
+rate				NUMBER(5,2) );
+ 
+ 
+ --adding attendance table 
+ 
+ CREATE TABLE attendences(
+ running_id	 NUMBER(10),
+ student_id	 NUMBER(10),
+ amount_paid NUMBER(10) ); */
+ 
+ 
+ 
+
+
+
+ 

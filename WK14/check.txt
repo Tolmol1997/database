@@ -1,0 +1,11 @@
+--run command using @C:\Users\WORKSHOP-2\Desktop\database\WK14\check.txt
+--check command
+
+ALTER TABLE students
+ADD CONSTRAINT ck_students
+CHECK (firstname=UPPER(firstname) ) ;
+
+
+ALTER TABLE courses
+ADD CONSTRAINT ck_courses
+CHECK (duration=UPPER(duration) ) ;
