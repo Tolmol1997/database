@@ -1,0 +1,7 @@
+//use @C:\Users\WORKSHOP-2\Desktop\Database\database\dropconstrainst.txt
+
+ALTER TABLE students
+DROP CONSTRAINT pk_student_id
+
+ALTER TABLE students 
+DROP CONSTRAINT u_students
